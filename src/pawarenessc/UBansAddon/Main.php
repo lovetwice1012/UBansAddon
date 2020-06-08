@@ -85,7 +85,7 @@ return true;
         'text' => "§l§5プレイヤーのWarnを解除する §7§l[§c✕§7]", 
         'image' => [ 'type' => 'path', 'data' => "" ] 
         ]; //4
-        $this->sendForm($player,"§l§7UBANS-ADDON","\n",$buttons,10);
+        $this->sendForm($player,"§l§7UBANS-ADDON","\n",$buttons,5682637);
         $this->info[$name] = "form";
 		return true;
   
@@ -112,7 +112,7 @@ return true;
       }else{
 	    
 	    switch($pk->formId){
-            case 10:
+            case 5682637:
             if($data == 0){//uban
             $players = Server::getInstance()->getOnlinePlayers();
 				foreach($players as $player1){
